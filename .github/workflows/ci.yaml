@@ -7,7 +7,7 @@ on:
     branches: main
 
 jobs:
-  CI.workflow:
+  CI-workflow:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
