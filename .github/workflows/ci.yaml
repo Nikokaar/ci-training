@@ -23,4 +23,4 @@ jobs:
       - name: Build
         run: npm run build
       - name: Deploy
-        run: curl ${{ secrets.RENDER.DEPLOY_HOOK_URL }}
+        run: curl ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
